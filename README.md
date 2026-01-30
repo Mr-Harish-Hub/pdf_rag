@@ -30,5 +30,3 @@ Used for version control and project management.
 
 
 
-<img width="832" height="513" alt="image" src="https://github.com/user-attachments/assets/396fa200-4db7-4ac4-af75-24da9168d2cb" />
-
