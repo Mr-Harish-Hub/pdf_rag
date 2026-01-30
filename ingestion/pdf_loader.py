@@ -10,4 +10,6 @@ def load_pdf(path):
                     "page": i + 1,
                     "text": text
                 })
+    print("pdf loaded")
     return pages
+
