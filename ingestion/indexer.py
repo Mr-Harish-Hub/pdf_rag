@@ -5,4 +5,6 @@ def build_faiss_index(embeddings):
     dim = embeddings.shape[1]
     index = faiss.IndexFlatL2(dim)
     index.add(embeddings)
+    print("FAISS index creation completed")
     return index
+
