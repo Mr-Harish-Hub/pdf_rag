@@ -6,4 +6,6 @@ _model = SentenceTransformer(EMBEDDING_MODEL)
 
 def embed_texts(texts):
     embeddings = _model.encode(texts)
+    print("text embedded")
     return embeddings.astype("float32")
+
