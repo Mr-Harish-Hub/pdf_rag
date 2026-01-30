@@ -1,8 +1,8 @@
-**PDF Question Answering System**
+## **PDF Question Answering System**
 This project is a small implementation of a system that allows asking questions over a PDF document and getting answers only from that document.
 The idea behind this project was to understand how document ingestion and retrieval work in a Retrieval Augmented Generation (RAG) setup, and to implement those parts manually instead of relying entirely on existing frameworks.
 
-**System workflow**
+## **System workflow**
 The system works by first taking a PDF document and reading all the text from it. This text is then broken into smaller parts so it can be searched efficiently. When a user asks a question, the system looks through the document to find only the parts that are most relevant to that question, instead of scanning the entire file. These relevant parts are then given to the model, which generates an answer strictly based on what is present in the document. If the document does not contain the answer, the system clearly says “Not found” instead of guessing.
 
 ## Technical Components Used
