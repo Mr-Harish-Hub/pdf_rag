@@ -8,5 +8,6 @@ def chunk_text(text, chunk_size, overlap):
         chunk = " ".join(words[start:end])
         chunks.append(chunk)
         start += chunk_size - overlap
-
+    print("chunked")
     return chunks
+
